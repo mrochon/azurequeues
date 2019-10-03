@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{B6DD28C1-76B2-4FDA-8CD8-958EC6E9FF9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{CAFE0492-CF63-44DE-B20E-4F0EC3572261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receiver", "Receiver\Receiver.csproj", "{CAFE0492-CF63-44DE-B20E-4F0EC3572261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C091B570-B147-486A-A9FA-FE1F6DB7D1D9}"
+	ProjectSection(SolutionItems) = preProject
+		CreateQueue.ps1 = CreateQueue.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
